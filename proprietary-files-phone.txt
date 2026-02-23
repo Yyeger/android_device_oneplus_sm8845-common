@@ -162,10 +162,10 @@ vendor/lib64/vendor.libdpmframework.so
 vendor/lib64/vendor.libdpmtcm.so
 vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so;MODULE_SUFFIX=_vendor
 
-# eSIM
-odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
-odm/etc/init/esim@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_esim.xml
+# eSIM not avaiable in chinese variant
+#odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+#odm/etc/init/esim@1.0-service.rc
+#odm/etc/vintf/manifest/manifest_oplus_esim.xml
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
@@ -181,7 +181,7 @@ odm/lib64/librpmbengclient.so
 odm/lib64/libsecurity_event_dcs_vnd.so
 
 # GNSS
-odm/etc/init/lowi-server.rc
+#odm/etc/init/lowi-server.rc
 odm/etc/apdr.conf
 odm/etc/izat.conf
 odm/etc/sap.conf
@@ -345,7 +345,7 @@ odm/etc/oem_asm2_tunner_platform_license.pfm
 odm/etc/oem_asm2_tunner_platform_trail_license.pfm
 odm/etc/oem_q_tunner_platform_license.pfm
 odm/etc/oem_q_tunner_platform_trail_license.pfm
-odm/etc/oem_stx_platform_license.pfm
+#odm/etc/oem_stx_platform_license.pfm
 odm/etc/plugin_config.xml
 odm/lib64/lib-virtual-modem-protos.so
 odm/lib64/libcommcenterfw.so
@@ -520,14 +520,14 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server-V1-ndk.so
 
 # RIL - UIM
-product/app/uimgbaservice/uimgbaservice.apk
+#product/app/uimgbaservice/uimgbaservice.apk
 product/app/uimremoteclient/uimremoteclient.apk
 product/app/uimremoteserver/uimremoteserver.apk
-product/etc/permissions/UimGba.xml
-product/etc/permissions/UimGbaManager.xml
+#product/etc/permissions/UimGba.xml
+#product/etc/permissions/UimGbaManager.xml
 product/etc/permissions/UimService.xml
-product/framework/uimgbalibrary.jar
-product/framework/uimgbamanagerlibrary.jar
+#product/framework/uimgbalibrary.jar
+#product/framework/uimgbamanagerlibrary.jar
 product/framework/uimremoteclientlibrary.jar
 product/framework/uimremoteserverlibrary.jar
 product/framework/uimservicelibrary.jar

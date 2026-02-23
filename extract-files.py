@@ -65,7 +65,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so',
         'vendor/lib64/hw/libaudiocorehal.qti.so',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
-        'vendor/lib64/hw/libsoundtriggerhal.qti.so',
+  #      'vendor/lib64/hw/libsoundtriggerhal.qti.so', this is causing hash error
         'vendor/lib64/libaudioserviceexampleimpl.so',
         'vendor/lib64/libqtigefar.so',
         'vendor/lib64/soundfx/libqcompostprocbundle.so',
